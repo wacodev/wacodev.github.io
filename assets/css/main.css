@@ -55,3 +55,53 @@
   color: #9feaf9;
 }
 
+/****************************************** Home *****************************************/
+
+#home {
+  background-color: #2f3241;
+}
+
+#home .container .row {
+  background-color: #2f3241;
+  min-height: 100vh;
+}
+
+.logo {
+  color: #74b1be;
+  margin-bottom: 8px;
+}
+
+.logo i {
+  font-size: 150px;
+}
+
+.main-title {
+  text-align: center;
+  padding: 15px 5px;
+  color: #74b1be;
+}
+
+.main-title h1 {
+  font-size: 2.2rem;
+}
+
+.main-description {
+  color: #74b1be;
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+}
+
+.explore {
+  margin-top: 10px;
+}
+
+.btn-outline-info {
+  color: #74b1be;
+  border-color: #74b1be;
+}
+
+.btn-outline-info:hover {
+  color: #2f3241;
+  background-color: #74b1be;
+  border-color: #74b1be;
+}
