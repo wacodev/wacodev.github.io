@@ -11,6 +11,14 @@ body {
   }
 }
 
+.highlight-text {
+  color: #3c4146;
+}
+
+.aqua-text {
+  color: #74b1be;
+}
+
 /*************************************** Navigation **************************************/
 
 .w-bg-dark {
@@ -123,16 +131,12 @@ body {
 /**************************************** About me ***************************************/
 
 #about-me {
-  padding: 2.5rem 1rem;
+  padding: 3rem 1rem;
   background-color: #fff;
 }
 
 .personal-info {
   text-align: center;
-}
-
-.highlight-text {
-  color: #3c4146;
 }
 
 .profile {
@@ -144,4 +148,20 @@ body {
 #skills {
   padding: 2.5rem 1rem;
   background-color: #f8f8f9;
+}
+
+#skills i {
+  font-size: 70px;
+  margin: 10px 10px;
+}
+
+#skills svg {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  fill: #74b1be;
+}
+
+#skills svg:hover {
+  fill: #90c9d6;
 }
