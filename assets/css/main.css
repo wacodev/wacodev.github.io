@@ -1,3 +1,16 @@
+/**************************************** General ****************************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #767676;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
 /*************************************** Navigation **************************************/
 
 .w-bg-dark {
@@ -6,6 +19,7 @@
 
 .w-navbar-dark .navbar-brand {
   color: #74b1be;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .w-navbar-dark .navbar-brand:hover,
@@ -72,7 +86,7 @@
 }
 
 .logo i {
-  font-size: 150px;
+  font-size: 8rem;
 }
 
 .main-title {
@@ -104,4 +118,30 @@
   color: #2f3241;
   background-color: #74b1be;
   border-color: #74b1be;
+}
+
+/**************************************** About me ***************************************/
+
+#about-me {
+  padding: 2.5rem 1rem;
+  background-color: #fff;
+}
+
+.personal-info {
+  text-align: center;
+}
+
+.highlight-text {
+  color: #3c4146;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+#skills {
+  padding: 2.5rem 1rem;
+  background-color: #f8f8f9;
 }
