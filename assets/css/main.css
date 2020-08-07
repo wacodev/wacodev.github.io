@@ -19,6 +19,18 @@ body {
   color: #74b1be;
 }
 
+.small {
+  color: #888888;
+}
+
+a {
+  color: #74b1be;
+}
+
+a:hover {
+  color: #74b1be;
+}
+
 /*************************************** Navigation **************************************/
 
 .w-bg-dark {
@@ -117,15 +129,20 @@ body {
   margin-top: 10px;
 }
 
-.btn-outline-info {
+.explore .btn-outline-info {
   color: #74b1be;
   border-color: #74b1be;
 }
 
-.btn-outline-info:hover {
+.explore .btn-outline-info:hover {
   color: #2f3241;
   background-color: #74b1be;
   border-color: #74b1be;
+}
+
+.explore .btn-outline-info:not(:disabled):not(.disabled):active,
+.explore .btn-outline-info:not(:disabled):not(.disabled).active {
+  color: #2f3241;
 }
 
 /**************************************** About me ***************************************/
@@ -144,6 +161,8 @@ body {
   width: 200px;
   margin-bottom: 15px;
 }
+
+/***************************************** Skills ****************************************/
 
 #skills {
   padding: 2.5rem 1rem;
@@ -164,4 +183,31 @@ body {
 
 #skills svg:hover {
   fill: #90c9d6;
+}
+
+/**************************************** Projects ***************************************/
+
+#projects {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+.btn-width {
+  width: 100px;
+}
+
+.img-pj {
+  width: 100%;
+  box-shadow: 0 5px 15px 0 rgba(32,33,36,0.28);
+}
+
+#projects .btn-outline-info {
+  color: #74b1be;
+  border-color: #74b1be;
+}
+
+#projects .btn-outline-info:hover {
+  color: #fff;
+  background-color: #74b1be;
+  border-color: #74b1be;
 }
