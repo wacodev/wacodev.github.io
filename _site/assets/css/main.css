@@ -31,6 +31,10 @@ a:hover {
   color: #74b1be;
 }
 
+.logo-font {
+  font-family: 'Maven Pro', sans-serif;
+}
+
 /*************************************** Navigation **************************************/
 
 .w-bg-dark {
@@ -148,7 +152,7 @@ a:hover {
 /**************************************** About me ***************************************/
 
 #about-me {
-  padding: 3rem 1rem;
+  padding: 3.5rem 1rem;
   background-color: #fff;
 }
 
@@ -165,7 +169,7 @@ a:hover {
 /***************************************** Skills ****************************************/
 
 #skills {
-  padding: 2.5rem 1rem;
+  padding: 3.5rem 1rem;
   background-color: #f8f8f9;
 }
 
@@ -188,7 +192,7 @@ a:hover {
 /**************************************** Projects ***************************************/
 
 #projects {
-  padding: 3rem 1rem;
+  padding: 3.5rem 1rem;
   background-color: #fff;
 }
 
@@ -210,4 +214,78 @@ a:hover {
   color: #fff;
   background-color: #74b1be;
   border-color: #74b1be;
+}
+
+/**************************************** Contact ****************************************/
+
+#contact {
+  padding-top: 3.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: #2f3241;
+  color: #74b1be;
+}
+
+.footer-nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.footer-nav ul li {
+  margin-bottom: 5px;
+}
+
+.footer-nav a {
+  color: #74b1be;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+  color: #9feaf9;
+  text-decoration: none;
+}
+
+.btn-send {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #3a585f;
+  border: none;
+  transition: all 0.2s;
+  color: #74b1be;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #74b1be;
+}
+
+.contact-form input:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+  color: #fff;
+}
+
+#contact .btn-outline-info {
+  color: #74b1be;
+  border-color: #74b1be;
+}
+
+#contact .btn-outline-info:hover {
+  color: #2f3241;
+  background-color: #74b1be;
+  border-color: #74b1be;
+}
+
+.credits {
+  font-size: 80%;
+  color: #74b1be;
 }
