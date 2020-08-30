@@ -1,8 +1,13 @@
 /**************************************** General ****************************************/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #767676;
+  position: relative;
 }
 
 @media (min-width: 1200px) {
@@ -288,4 +293,5 @@ a:hover {
 .credits {
   font-size: 80%;
   color: #74b1be;
+  text-align: center;
 }

@@ -29,7 +29,7 @@
   <!-- Navegación -->  
   <nav id="navigation" class="navbar navbar-expand-lg w-navbar-dark w-bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="wi-logo"></i> wacodev</a>
+      <a class="navbar-brand" href="#home"><i class="wi-logo"></i> wacodev</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon fas fa-bars"></span>
@@ -37,17 +37,17 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre mí</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Habilidades</a>
+            <a class="nav-link" href="#skills">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#projects">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -70,7 +70,7 @@
             <p class="main-description">Web Developer</p>
           </div>
           <div class="explore">
-            <a href="#" class="btn btn-outline-info btn-lg">
+            <a href="#about-me" class="btn btn-outline-info btn-lg">
               Explorar
             </a>
           </div>
@@ -85,7 +85,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="personal-info">
-          <img src="/assets/images/profile.png" alt="Profile" class="profile">
+          <img src="/assets/images/profile.jpeg" alt="Profile" class="profile">
 
           <h2 class="highlight-text">William Antonio Coto Olmedo</h2>
 
@@ -131,8 +131,8 @@
       <div class="row mb-2">
 
         <!-- Back-End -->
-        <div class="col-md-4 text-center mb-3">
-          <h3 class="highlight-text mb-4">Back-End</h3>
+        <div class="col-md-4 text-center mb-4">
+          <h3 class="highlight-text mb-3">Back-End</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>PHP</title>
             <path
@@ -177,8 +177,8 @@
         </div> <!-- /.Back-End -->
 
         <!-- Front-End -->
-        <div class="col-md-4 text-center mb-3">
-          <h3 class="highlight-text mb-4">Front-End</h3>
+        <div class="col-md-4 text-center mb-4">
+          <h3 class="highlight-text mb-3">Front-End</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>HTML5</title>
             <path
@@ -209,8 +209,8 @@
         </div> <!-- /.Front-End -->
 
         <!-- Bases de Datos -->
-        <div class="col-md-4 text-center mb-3">
-          <h3 class="highlight-text mb-4">Bases de Datos</h3>
+        <div class="col-md-4 text-center mb-4">
+          <h3 class="highlight-text mb-3">Bases de Datos</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>MySQL</title>
             <path
@@ -245,40 +245,17 @@
         <h2 class="highlight-text mb-5">Proyectos</h2>
       </div>
 
-      <!-- QFproject -->
-      <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-md-6 mb-3 order-md-first order-last">
-          <img src="/assets/images/preview-qfproject.png" alt="Preview QFproject" class="img-pj">
-        </div>
-
-        <div class="col-md-6 text-center mb-3">
-          <h3 class="highlight-text">QFproject</h3>
-          <p>
-            Sistema de reservación de locales para la Facultad de Química y Farmacia
-            de la Universidad de El Salvador.
-          </p>
-          <p class="small">
-            <i class="fas fa-tag aqua-text mr-1"></i> PHP, HTML, CSS, JavaScript, Laravel, MariaDB.
-          </p>
-          <a href="https://demoqfproject.000webhostapp.com/" class="btn btn-outline-info btn-width mr-2" target="_blank">
-            <i class="fas fa-laptop"></i> Demo
-          </a>
-          <a href="https://github.com/wacodev/QFproject" class="btn btn-outline-info btn-width" target="_blank">
-            <i class="fab fa-github"></i> Código
-          </a>
-        </div>
-      </div> <!-- /.QFproject -->
-
       <!-- DSIproject -->
       <div class="row justify-content-center align-items-center mb-4">
+        <div class="col-md-6 mb-3 order-md-first order-last">
+          <img src="/assets/images/preview-dsiproject.png" alt="Preview DSIproject" class="img-pj">
+        </div>
+
         <div class="col-md-6 text-center mb-3">
           <h3 class="highlight-text">DSIproject</h3>
           <p>
             Sistema informático para la gestión de procesos académicos y administrativos
             del Centro Escolar Anastasio Aquino.
-          </p>
-          <p class="small">
-            <i class="fas fa-tag aqua-text mr-1"></i> PHP, HTML, CSS, JavaScript, Laravel, MariaDB.
           </p>
           <a href="https://demodsiproject.000webhostapp.com/" class="btn btn-outline-info btn-width mr-2" target="_blank">
             <i class="fas fa-laptop"></i> Demo
@@ -286,12 +263,35 @@
           <a href="https://github.com/wacodev/DSIproject" class="btn btn-outline-info btn-width" target="_blank">
             <i class="fab fa-github"></i> Código
           </a>
-        </div> <!-- /.DSIproject -->
+          <p class="small mt-3">
+            <i class="fas fa-tag aqua-text mr-1"></i> PHP, HTML, CSS, JavaScript, Laravel, MariaDB.
+          </p>
+        </div>
+      </div> <!-- /.DSIproject -->
+
+      <!-- QFproject -->
+      <div class="row justify-content-center align-items-center mb-4">
+        <div class="col-md-6 text-center mb-3">
+          <h3 class="highlight-text">QFproject</h3>
+          <p>
+            Sistema de reservación de locales para la Facultad de Química y Farmacia
+            de la Universidad de El Salvador.
+          </p>
+          <a href="https://demoqfproject.000webhostapp.com/" class="btn btn-outline-info btn-width mr-2" target="_blank">
+            <i class="fas fa-laptop"></i> Demo
+          </a>
+          <a href="https://github.com/wacodev/QFproject" class="btn btn-outline-info btn-width" target="_blank">
+            <i class="fab fa-github"></i> Código
+          </a>
+          <p class="small mt-3">
+            <i class="fas fa-tag aqua-text mr-1"></i> PHP, HTML, CSS, JavaScript, Laravel, MariaDB.
+          </p>
+        </div>
 
         <div class="col-md-6 mb-3">
-          <img src="/assets/images/preview-dsiproject.png" alt="Preview DSIproject" class="img-pj">
+          <img src="/assets/images/preview-qfproject.png" alt="Preview QFproject" class="img-pj">
         </div>
-      </div>
+      </div> <!-- /.QFproject -->
 
       <!-- google-homepage -->
       <div class="row justify-content-center align-items-center mb-4">
@@ -304,9 +304,6 @@
           <p>
             Clon simple de la página de inicio de Google.
           </p>
-          <p class="small">
-            <i class="fas fa-tag aqua-text mr-1"></i> HTML, CSS.
-          </p>
           <a href="https://wacodev.github.io/google-homepage/" class="btn btn-outline-info btn-width mr-2"
             target="_blank">
             <i class="fas fa-laptop"></i> Demo
@@ -314,6 +311,9 @@
           <a href="https://github.com/wacodev/google-homepage" class="btn btn-outline-info btn-width" target="_blank">
             <i class="fab fa-github"></i> Código
           </a>
+          <p class="small mt-3">
+            <i class="fas fa-tag aqua-text mr-1"></i> HTML, CSS.
+          </p>
         </div>
       </div> <!-- /.google-homepage -->
 
@@ -404,7 +404,13 @@
 
   <!-- Bootstrap 4.5.0 -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <!-- Main -->
+  <script src="/assets/js/main.js"></script>  
   <!-- /.Scripts -->
 </body>
 
