@@ -9,15 +9,19 @@ title: wacodev
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="mx-auto text-center">
-          <div class="logo">
+          <div class="logo animate__animated animate__rubberBand">
             <i class="wi-logo"></i>
           </div>
           <div class="main-title">
-            <h1>William Antonio Coto Olmedo</h1>
-            <p class="main-description">Web Developer</p>
+            <h1 class="animate__animated animate__bounceIn animate__delay-1s">
+              William Antonio Coto Olmedo
+            </h1>
+            <p class="main-description animate__animated animate__bounceIn animate__delay-2s">
+              Web Developer
+            </p>
           </div>
           <div class="explore">
-            <a href="#about-me" class="btn btn-outline-info btn-lg">
+            <a href="#about-me" class="btn btn-outline-info btn-lg animate__animated animate__bounceIn animate__delay-3s">
               Explorar
             </a>
           </div>
@@ -34,31 +38,31 @@ title: wacodev
         <div class="personal-info">
           <img src="/assets/images/profile.png" alt="Profile" class="profile">
 
-          <h2 class="highlight-text">William Antonio Coto Olmedo</h2>
+          <h2 class="highlight-text name">William Antonio Coto Olmedo</h2>
 
-          <p class="highlight-text mb-5">
+          <p class="highlight-text mb-5 description">
             Web Developer &#8226; San Salvador, SV &#8226; wacodev@outlook.com
           </p>
 
-          <p>
+          <p class="pf-1">
             Soy una persona apasionada por el desarrollo web, aunque he adquirido mayor
             experiencia en el Back-End también me fascina aprender más sobre el Front-End
             y estar cada día más cerca de considerarme un desarrollador Full Stack.
           </p>
-          <p>
+          <p class="pf-2">
             Actualmente me encuentro cursando mi último ciclo de la carrera de Ingeniería
             de Sistemas Informáticos en la Universidad de El Salvador. Mis objetivos hoy
             en día se centran en comenzar a adquirir experiencia profesional y aplicar mis
             conocimientos en el campo del desarrollo web.
           </p>
-          <p>
+          <p class="pf-3">
             Me encanta aprender nuevas tecnologías; pero también reforzar las que ya conozco.
             Laravel es el framework con el que más aplicaciones web he desarrollado y le guardo
             especial cariño por ser el framework que utilicé en mi primer proyecto que fue
             presentado a clientes reales. Además de Laravel he desarrollado proyectos con Django
             y Spring Boot.
           </p>
-          <p class="mb-0">
+          <p class="pf-4 mb-0">
             En mi tiempo libre disfruto de ver series y películas, además de aprender
             empíricamente sobre diseño gráfico.
           </p>
@@ -78,7 +82,7 @@ title: wacodev
       <div class="row mb-2">
 
         <!-- Back-End -->
-        <div class="col-md-4 text-center mb-4">
+        <div id="backend" class="col-md-4 text-center mb-4">
           <h3 class="highlight-text mb-3">Back-End</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>PHP</title>
@@ -124,7 +128,7 @@ title: wacodev
         </div> <!-- /.Back-End -->
 
         <!-- Front-End -->
-        <div class="col-md-4 text-center mb-4">
+        <div id="frontend" class="col-md-4 text-center mb-4">
           <h3 class="highlight-text mb-3">Front-End</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>HTML5</title>
@@ -156,7 +160,7 @@ title: wacodev
         </div> <!-- /.Front-End -->
 
         <!-- Bases de Datos -->
-        <div class="col-md-4 text-center mb-4">
+        <div id="database" class="col-md-4 text-center mb-4">
           <h3 class="highlight-text mb-3">Bases de Datos</h3>
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <title>MySQL</title>
@@ -194,11 +198,11 @@ title: wacodev
 
       <!-- DSIproject -->
       <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-md-6 mb-3 order-md-first order-last">
+        <div class="col-md-6 mb-3 order-md-first order-last dsi-img">
           <img src="/assets/images/preview-dsiproject.png" alt="Preview DSIproject" class="img-pj">
         </div>
 
-        <div class="col-md-6 text-center mb-3">
+        <div class="col-md-6 text-center mb-3 dsi-text">
           <h3 class="highlight-text">DSIproject</h3>
           <p>
             Sistema informático para la gestión de procesos académicos y administrativos
@@ -218,7 +222,7 @@ title: wacodev
 
       <!-- QFproject -->
       <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-md-6 text-center mb-3">
+        <div class="col-md-6 text-center mb-3 qf-text">
           <h3 class="highlight-text">QFproject</h3>
           <p>
             Sistema de reservación de locales para la Facultad de Química y Farmacia
@@ -235,18 +239,18 @@ title: wacodev
           </p>
         </div>
 
-        <div class="col-md-6 mb-3">
+        <div class="col-md-6 mb-3 qf-img">
           <img src="/assets/images/preview-qfproject.png" alt="Preview QFproject" class="img-pj">
         </div>
       </div> <!-- /.QFproject -->
 
       <!-- google-homepage -->
       <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-md-6 mb-3 order-md-first order-last">
+        <div class="col-md-6 mb-3 order-md-first order-last ghp-img">
           <img src="/assets/images/preview-google-homepage.png" alt="Preview google-homepage" class="img-pj">
         </div>
 
-        <div class="col-md-6 text-center mb-3">
+        <div class="col-md-6 text-center mb-3 ghp-text">
           <h3 class="highlight-text">google-homepage</h3>
           <p>
             Clon simple de la página de inicio de Google.
